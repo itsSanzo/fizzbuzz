@@ -21,7 +21,8 @@ def play(number)
  return number
 end
 
-puts play(52)
-puts play(3)
-puts play(10)
-puts play(30)
+number = 1
+while number <= 100 
+  puts play(number)
+  number += 1
+end
