@@ -16,4 +16,12 @@ describe "Fizzbuzz" do
   it "knows if multiple of 5" do
     expect(is_multiple_of_five?(1)).to be_false
   end
+
+  it "knows if multiple of 15" do
+    expect(is_multiple_of_fifteen?(15)).to be_true
+  end
+
+  it "knows if multiple of 15" do
+    expect(is_multiple_of_fifteen?(20)).to be_false
+  end
 end
