@@ -1,5 +1,13 @@
 def fizzbuzz(number)
-  number
+  if is_divisible_by_fifteen?(number)
+    return "FizzBuzz" 
+  elsif is_divisible_by_five?(number)
+    return "Buzz"
+  elsif is_divisible_by_three?(number)
+    return "Fizz"
+  else
+    number
+  end
 end
 
 def is_divisible_by(number, divider)
