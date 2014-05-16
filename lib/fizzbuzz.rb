@@ -1,3 +1,7 @@
+def fizzbuzz(number)
+  number
+end
+
 def is_divisible_by(number, divider)
   number % divider == 0
 end
